@@ -21,6 +21,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="language" content="en"/>
+    <meta property="og:title" content="OGameX" />
+    <meta property="og:url" content="{{ url('/)') }}" />
+    <meta property="og:image" content="/img/planets/ice_moon_view.jpg" />
     <meta name="author" content="OGameX"/>
     <meta name="publisher" content="OGameX"/>
     <meta name="copyright" content="OGameX"/>
